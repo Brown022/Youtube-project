@@ -152,3 +152,8 @@ margin-right: 20px;
 .search-button:hover .tooltip, .voice-search-button:hover .tooltip, .upload-icon-container:hover .tooltip , .youtube-apps-icon-container:hover .tooltip, .notifications-icon-container:hover .tooltip{
   opacity: 1;
 }
+@media(max-width:600px){
+  .search-button{
+    width: 100%;
+  }
+}
